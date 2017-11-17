@@ -7,7 +7,8 @@
   padding: 0px 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  position: relative;
 }
 
 /* Logo */
@@ -74,4 +75,16 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+.svg-color {
+  fill: red;
+  height: 40px;
+}
+
+.wrapper-navbar {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
