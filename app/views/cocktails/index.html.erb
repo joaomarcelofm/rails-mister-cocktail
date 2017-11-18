@@ -6,21 +6,13 @@
       <% @cocktails.each do |cocktail| %>
       <div class="card col-xs-12 col-md-4">
         <%= link_to cocktail_path(cocktail) do %>
-
         <div class="card-wrapper">
-
           <div class="card-bg" style="background-image: url('<%= cl_image_path cocktail.photo, crop: :fill %>')"></div>
           <div class="card-body">
             <%= cocktail.name %>
-
-
-
-
-
           </div>
         </div>
         <% end %>
-
       </div>
       <% end  %>
     </div>
