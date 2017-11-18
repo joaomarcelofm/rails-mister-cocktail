@@ -1,6 +1,6 @@
 <div class="navbar-wagon">
   <div class="wrapper-navbar">
-    <%= link_to 'Recipes', cocktails_path %>
+    <%= link_to 'Recipes', cocktails_path(anchor: "cards"), class: 'with-scroll' %>
     <%= image_tag 'drink.png' %>
     <%= link_to 'Add new', new_cocktail_path %>
   </div>

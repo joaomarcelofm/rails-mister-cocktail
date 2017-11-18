@@ -83,3 +83,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
+a.with-scroll {
+  scroll-behavior: smooth;
+}
