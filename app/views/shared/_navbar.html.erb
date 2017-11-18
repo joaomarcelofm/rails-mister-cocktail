@@ -1,7 +1,7 @@
 <div class="navbar-wagon">
   <div class="wrapper-navbar">
     <%= link_to 'Recipes', cocktails_path(anchor: "cards"), class: 'with-scroll' %>
-    <%= image_tag 'drink.png' %>
+    <%= link_to image_tag('drink.png'), cocktails_path %>
     <%= link_to 'Add new', new_cocktail_path %>
   </div>
 </div>
