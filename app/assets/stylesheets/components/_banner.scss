@@ -1,6 +1,21 @@
-.banner-test {
-  background-image: image-url('banner.jpg');
+.banner-home {
+  background-image: linear-gradient(to left, rgba(56, 239, 125, 0.7), rgba(17, 153, 142, 0.7)), image-url('banner.jpg');
   background-size: cover;
   background-position: center;
   height: 70vh;
+
 }
+
+.container-banner {
+  color: white;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+    h1 {
+    margin: 0px;
+  }
+}
+
+
