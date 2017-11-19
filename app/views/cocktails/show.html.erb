@@ -1,11 +1,11 @@
-<h1><%= @cocktail.name %></h1>
-
-<%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
+<div class="banner-drink container-banner" style="background-image: linear-gradient(to left, rgba(56, 239, 125, 0.7), rgba(17, 153, 142, 0.7)), url('<%= @cocktail.photo %>')">
+  <h1> <%= @cocktail.name %></h1>
+</div>
 
 <ul>
-<% @cocktail.doses.each do |dose| %>
-<li><%= dose.description %> <%= dose.ingredient.name %> <%= link_to 'Delete dose', dose_path(dose), method: :delete %></li>
-<% end %>
+  <% @cocktail.doses.each do |dose| %>
+  <li><%= dose.description %> <%= dose.ingredient.name %> <%= link_to 'Delete dose', dose_path(dose), method: :delete %></li>
+  <% end %>
 </ul>
 
 

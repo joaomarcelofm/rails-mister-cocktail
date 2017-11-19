@@ -1,9 +1,15 @@
-.banner-home {
+.banner-main {
   background-image: linear-gradient(to left, rgba(56, 239, 125, 0.7), rgba(17, 153, 142, 0.7)), image-url('banner.jpg');
   background-size: cover;
   background-position: center;
   height: 70vh;
+}
 
+.banner-drink {
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100vw;
 }
 
 .container-banner {
